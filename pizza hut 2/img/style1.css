@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+
+
+nav {
+  /* background-color: #d48585; */
+  width: 100%;
+  height: 50px;
+}
+
+.pizza-logo {
+  display: flex;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: cursive;
+}
+
+.ion {
+  width: 30px;
+}
+
+/* a:link{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+} */
+
+.link-container {
+  display: flex;
+  margin-left: auto;
+  margin-top: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+.reg {
+  color: black;
+  text-transform: uppercase;
+  color: grey;
+}
+
+.deals {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+
+.options {
+  text-decoration: none;
+  color: black;
+  border: 1px solid gray;
+  padding: 10px 63px;
+}
+
+.img {
+  width: 370px;
+  height: 200px;
+  margin-top: 30px;
+}
+
+section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-image:url(imgbackground.jpg);
+}
+
+h3{
+    text-transform: uppercase;
+}
+p{
+    color: gray;
+
+}
+
+button{
+  background-color: darkgreen;
+  width: 20px;
+  height: 20px;
+}
